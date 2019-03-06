@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+
+        //Example 1
+        var func1 = function () {
+            console.log("Hello World")
+        }
+
+        function func2(parm) {
+            parm()
+        }
+        func2(func1);
+
+        //Example 2
+        var student = {
+            name : "Sachini",
+            age : 22,
+            fee : function () {
+                console.log("Rs.100,000")
+            }
+        }
+
+        console.log(student.name)
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
